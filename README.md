@@ -12,8 +12,8 @@
 * npm start 则会执行 webpack -w (也可配置其他的命令，如：webpack-dev-server --progress)
 * npm build 则执行build：对应的值命令 上述命令可以解释为：先删除 ./build下的所有文件，然后执行命令 webpack --progress 并且使用：  ./webpack.production.config.js作为本次webpack命令的配置文件，最后再列出 ./build目录下的目录文件
 
-#####dependencies 项目应用运行依赖模块 ，npm i moduleName --save （例如 react）
-#####devDependencies项目应用开发环境依赖，npm i moduleName --save -d(例如 mocha，babel-cli，babel-preset-es2015，autoprefixer之类的文件就应该放在开发依赖中)
+#####dependencies：项目应用运行依赖模块 ，npm i moduleName --save （例如 react）
+#####devDependencies：项目应用开发环境依赖，npm i moduleName --save -d(例如 mocha，babel-cli，babel-preset-es2015，autoprefixer之类的文件就应该放在开发依赖中)
 
 ##webpack.config.js
 wbepack默认使用的配置文件
