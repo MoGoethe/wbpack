@@ -56,6 +56,7 @@ module.exports = {
 	}
 };
 </code></pre>
+
 #####参考文档  [airbnb文档1](http://www.tuicool.com/articles/NjAVB3A "airbnb")，[airbnb文档2](https://segmentfault.com/a/1190000005984309 "airbnb")，[airbnb文档3](http://pastebin.com/EZCun2hL "airbnb")
 
 ##.babelrc
@@ -91,9 +92,9 @@ module.exports = {
 * 以方括号“[]”包含单个字符的匹配列表；
 
 如：
-/*
-!.gitignore
-!/fw/bin/
+/*<br />
+!.gitignor<br />
+!/fw/bin<br />
 !/fw/sf/
 
 说明：忽略全部内容，但是不忽略 .gitignore 文件、根目录下的 /fw/bin/ 和 /fw/sf/ 目录；
